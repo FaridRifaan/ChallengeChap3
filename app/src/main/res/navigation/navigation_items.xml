@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_items"
+    app:startDestination="@id/hurufFragment">
+
+    <fragment
+        android:id="@+id/hurufFragment"
+        android:name="com.challengechap3.HurufFragment"
+        android:label="fragment_huruf"
+        tools:layout="@layout/fragment_huruf" />
+    <fragment
+        android:id="@+id/kalimatFragment"
+        android:name="com.challengechap3.KalimatFragment"
+        android:label="fragment_kalimat"
+        tools:layout="@layout/fragment_kalimat" />
+</navigation>
